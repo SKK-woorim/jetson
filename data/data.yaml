@@ -1,0 +1,13 @@
+train: data/train/images
+val: data/valid/images
+test: data/test/images
+
+nc: 2
+names: ['hat', 'no hat']
+
+roboflow:
+  workspace: test-s8gha
+  project: test1-4o6cm
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-s8gha/test1-4o6cm/dataset/1
